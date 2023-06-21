@@ -1,0 +1,11 @@
+-- CreateTable
+CREATE TABLE `Chance` (
+    `id` VARCHAR(191) NOT NULL,
+    `date` DATETIME(3) NOT NULL,
+    `r1` VARCHAR(191) NOT NULL,
+    `r2` VARCHAR(191) NOT NULL,
+    `r3` VARCHAR(191) NOT NULL,
+    `r4` VARCHAR(191) NOT NULL,
+
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
